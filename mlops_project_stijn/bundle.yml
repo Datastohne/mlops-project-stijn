@@ -32,16 +32,16 @@ environments:
   dev:
     default: true
     workspace:
-      host: https://e2-demo-west.cloud.databricks.com/
+      host: dbc-a49c6081-8a5a.cloud.databricks.com
 
   staging:
     workspace:
-      host: https://e2-demo-west.cloud.databricks.com/
+      host: dbc-a49c6081-8a5a.cloud.databricks.com
 
   prod:
     workspace:
-      host: https://e2-demo-west.cloud.databricks.com/
+      host: dbc-a49c6081-8a5a.cloud.databricks.com
 
   test:
     workspace:
-      host: https://e2-demo-west.cloud.databricks.com/
+      host: dbc-a49c6081-8a5a.cloud.databricks.com
