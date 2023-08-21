@@ -27,7 +27,7 @@ include:
   - ./databricks-resources/monitoring-workflow-resource.yml
 
 
-# Environment specific values for workspaces
+# Environment specific values for workspace
 environments:
   dev:
     default: true
