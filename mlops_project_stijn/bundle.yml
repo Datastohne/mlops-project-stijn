@@ -32,16 +32,16 @@ environments:
   dev:
     default: true
     workspace:
-      host: https://dbc-a49c6081-8a5a.cloud.databricks.com
+      host: https://adb-984752964297111.11.azuredatabricks.net/
 
   staging:
     workspace:
-      host: https://dbc-a49c6081-8a5a.cloud.databricks.com
+      host: https://adb-984752964297111.11.azuredatabricks.net/
 
   prod:
     workspace:
-      host: https://dbc-a49c6081-8a5a.cloud.databricks.com
+      host: https://adb-984752964297111.11.azuredatabricks.net/
 
   test:
     workspace:
-      host: https://dbc-a49c6081-8a5a.cloud.databricks.com
+      host: https://adb-984752964297111.11.azuredatabricks.net/
