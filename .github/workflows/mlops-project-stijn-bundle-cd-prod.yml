@@ -10,6 +10,8 @@ on:
       - 'release'
   workflow_dispatch:
 
+permissions: write-all
+
 defaults:
   run:
     working-directory: ./mlops_project_stijn
