@@ -32,17 +32,17 @@ environments:
   dev:
     default: true
     workspace:
-      host: https://e2-demo-west.cloud.databricks.com
+      host: https://adb-984752964297111.11.azuredatabricks.net/
 
   staging:
     workspace:
-      host: https://e2-demo-west.cloud.databricks.com
+      host: https://adb-984752964297111.11.azuredatabricks.net/
 
   prod:
     workspace:
-      host: https://e2-demo-west.cloud.databricks.com
+      host: https://adb-984752964297111.11.azuredatabricks.net/
 
   test:
     workspace:
-      host: https://e2-demo-west.cloud.databricks.com
+      host: https://adb-984752964297111.11.azuredatabricks.net/
 
