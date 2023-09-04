@@ -46,16 +46,16 @@ jobs:
       - name: Validate Bundle For Test Environment in Staging Workspace
         id: validate
         run: |
-          databricks bundle validate --target test
+          databricks bundle validate -e test
       - name: Deploy Bundle to Test Environment in Staging Workspace
         id: deploy
         run: |
-          databricks bundle deploy --target test
+          databricks bundle deploy -e test
       - name: Run Feature Engineering Workflow for Test Environment in Staging Workspace
         id: feature_engineering
         run: |
-          databricks bundle run write_feature_table_job --target test
+          databricks bundle run write_feature_table_job -e test
       - name: Run Training Workflow for Test Environment in Staging Workspace
         id: training
         run: |
-          databricks bundle run model_training_job --target test
+          databricks bundle run model_training_job -e test
