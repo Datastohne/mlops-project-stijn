@@ -137,7 +137,3 @@ fs.write_table(
 )
 
 dbutils.notebook.exit(0)
-
-# COMMAND ----------
-
-print('hello world')
